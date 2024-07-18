@@ -7,4 +7,4 @@ services:
     startCommand: 'node server.js'
     envVars:
       - key: OPENAI_API_KEY
-        fromDatabase: OPENAI_API_KEY
+        fromSecret: OPENAI_API_KEY
